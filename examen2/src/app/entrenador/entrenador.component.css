@@ -47,12 +47,12 @@ h4 {
 .grid-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .module {
-    font-size: 10px;
+    font-size: 75px;
     max-height: 75px; }
 }
-@media (max-width: 1024px) {
+@media (max-width: 100px) {
   .grid {
     margin: 0;
   }
