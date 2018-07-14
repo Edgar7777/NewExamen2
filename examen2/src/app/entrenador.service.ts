@@ -11,7 +11,7 @@ import { Entrenador } from './entrenador';
 })
 export class EntrenadorService {
 
-private entrenadorUrl = 'http://localhost:1337';
+private entrenadorUrl = 'http://localhost:1337/entrenadores';
 
   constructor(private http: HttpClient) {
 
