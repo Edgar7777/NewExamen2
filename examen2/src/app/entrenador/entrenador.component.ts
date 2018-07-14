@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Entrenador } from '../entrenador';
-
+import { BuscadorComponent } from '../buscador/buscador.component';
 import {  EntrenadorService } from '../entrenador.service';
 
 @Component({

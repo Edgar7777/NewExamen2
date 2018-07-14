@@ -1,12 +1,15 @@
-<h3>Top Heroes</h3>
+<h3>EXAMEN POKEMON</h3>
+<div>
+  <app-buscador></app-buscador>
+</div>
 <div class="grid grid-pad">
-  <a *ngFor="let entrenador of entrenadores" class="col-1-4"
-      >
+  <a *ngFor="let entrenador of entrenadores" class="col-1-4">
     <div class="module hero">
+      <br />
+      <br />
       <h4>{{entrenador.nombre}}</h4>
       <div class="grid grid-pad">
-        <a *ngFor="let pokemon of entrenador.pokemons" class="col-1-4"
-            >
+        <a *ngFor="let pokemon of entrenador.pokemons" class="col-1-4">
           <div class="module hero">
             <h4>{{pokemon.nombrePokemon}}</h4>
           </div>
